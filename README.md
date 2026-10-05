@@ -42,6 +42,4 @@ Adjust paths and device settings as in the course environment.
 
 ---
 
-## License
 
-Academic coursework — reference with attribution.
