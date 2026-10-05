@@ -1,0 +1,26 @@
+1. Parallelization in CPU of SequentialMatMul [DONE]
+    - [OK] Complete file MultiprocessingMatMul.py
+    - [OK] Run qsub runMultiprocessingMatMul.sh and save results (MultiprocMatMulTests.out) & plot (MultiprocMatMulTests.csv)
+
+2. Parallelization in GPU []
+    - [OK] Simple GPU implementation of GEMM in CUDA (TODO: CudaSimpleMatMul.py)
+    - [OK]   Transposed implementation (TODO: CudaTransposeMatMul.py)
+    - [OK]   Shared Memory Itilization (TODO: CudaSharedMemMatMul.py)
+    - [OK]   Run qsub runCUDAMatMul.sh and get the results (CUDAMulTests.out) & plotfiles (CUDAMatMulTests.csv)
+
+3. Complete Commenting []
+    - []   Comment on the Scalability of GEMM in CPU!
+           Run tests for processes = [1, 5, 10, 20, 40] & dim = [100, 200, 400, 600] in testMultiprocessingMatMul.py
+           Do plot of execution time as processses increase (x-axis: processes, y-axis: time) [Display numpy times for each problem]
+           Do plot of speedup: (x-axis: processes, y-axis: speedup) [Add a linear y=x dashed speedup for comparison]
+    
+    - []   Compare performance with GPU
+           Measure and display in bar chart the time to execute the various implementation. For each implementation display bars with total execution time
+           at which display which part of time is allocated in calculations and which transfers.
+           Unified chart for all dim of matrices [1024, 2048, 4096, 6144, 8192] in testCUDAMatMul.py
+           Compare the clean times of executions compared with numpy. Comment on the results.
+
+4. Train Neural Network [OK]
+
+    Use GEMM implementations for GPU in neural network nn.py and comment on its performance.
+    (Remember: Most time spent training is about multiplying matrices)

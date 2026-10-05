@@ -1,0 +1,8 @@
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 2 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 8 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 16 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))
+/usr/local/lib/python3.8/dist-packages/numba/cuda/dispatcher.py:536: NumbaPerformanceWarning: [1mGrid size 100 will likely result in GPU under-utilization due to low occupancy.[0m
+  warn(NumbaPerformanceWarning(msg))

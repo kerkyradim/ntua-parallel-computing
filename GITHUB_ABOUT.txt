@@ -1,0 +1,1 @@
+NTUA Parallel Computing: sequential, multiprocessing, and CUDA matrix multiplication for NN training — Kerkyra Dimisianou.
